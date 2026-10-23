@@ -87,20 +87,7 @@
 
   v(1cm)
 
-  // Ordine del giorno (se presente)
-  if odg != none and odg.len() > 0 [
-    #align(center)[
-      #text(size: 17pt, weight: "bold")[Ordine del giorno]
-    ]
 
-    #set enum(numbering: "1.")
-    #pad(left: 20%, right: 10%)[
-      #for item in odg [
-        + #item
-      ]
-    ]
-    #v(1cm)
-  ]
 
   // Tabella informazioni
   let partecipanti-content = if type(partecipanti) == array {
@@ -128,6 +115,22 @@
     )
   ]
 
+  v(2cm)
+
+  // Ordine del giorno (se presente)
+  if odg != none and odg.len() > 0 [
+    #align(center)[
+      #text(size: 17pt, weight: "bold")[Ordine del giorno]
+    ]
+
+    #set enum(numbering: "1.")
+    #pad(left: 20%, right: 10%)[
+      #for item in odg [
+        + #item
+      ]
+    ]
+    #v(1cm)
+  ]
   // Passaggio alla seconda pagina
   pagebreak()
 

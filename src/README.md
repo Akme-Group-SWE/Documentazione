@@ -42,8 +42,9 @@ Per creare un nuovo verbale (es. `src/Candidatura/Verbali Interni/2025-10-22.typ
   stato: "Verificato",
   versione: "1.0.0",
   registro-modifiche: (
-    ("1.0.0", "23/10/2025", "Marco Giacon", "Roberto Piovesan", "Versione finale approvata"),
-    ("0.1.0", "22/10/2025", "Marco Giacon", "Roberto Piovesan", "Prima stesura verbale"),
+    ("1.0.0", "23/10/2026", "Davide Loparco", "Davide Loparco", "Revisione e approvazione finale"),
+    ("0.2.0", "22/10/2026", "Roberto Piovesan", "Davide Loparco", "Integrazione contenuti e tabelle"),
+    ("0.1.0", "22/10/2026", "Roberto Piovesan", "Davide Loparco", "Prima stesura verbale"),
   ),
   partecipanti: (
     "Roberto Piovesan",
