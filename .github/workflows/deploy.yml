@@ -1,0 +1,47 @@
+name: Compilazione Documenti e Deploy Sito
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'website/**'
+      - 'compile.sh'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Esegui Pipeline di Compilazione e Aggiornamento
+        run: |
+          chmod +x compile.sh scripts/*.py
+          ./compile.sh
+
+      - name: Commit e Push delle modifiche
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ website/ src/
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da salvare."
+          else
+            git commit -m "ci: aggiornamento automatico PDF, sito web e glossario [skip ci]"
+            git push
+          fi
+
