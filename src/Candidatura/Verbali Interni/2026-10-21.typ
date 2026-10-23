@@ -35,7 +35,7 @@ Con il presente verbale si certifica che Akme Group si è riunito in data 21/10/
 = Resoconto
 
 == Revisione e approvazione template
-A seguito di una revisione da parte del team sono stati approvati e quindi presi in adozione i template typst prodotti.
+A seguito di una revisione da parte del team sono stati approvati e quindi presi in adozione i template typst#super[G] prodotti.
 Il team si riserva la possibilità di creare ulteriori template in futuro, qualora fosse necessario.
 
 == Raccolta domande
@@ -60,7 +60,7 @@ A seguire, la suddivisione dello svolgimento delle attività di questa settimana
 
     [*Descrizione*], [*Responsabile*], [*Scadenza*],
     [Redazione del verbale odierno], [Davide Loparco], [23/10/2026],
-    [Creazione e gestione organization Github], [Mattia Cadamuro, Chen DaXin], [23/10/2026],
+    [Creazione e gestione organization Github#super[G]], [Mattia Cadamuro, Chen DaXin], [23/10/2026],
     [Creazione label per issue nella repo], [Marco Giacon], [25/10/2026],
     [Redazione del verbale esterno], [Pietro Giulio Bassi, Roberto Piovesan], [25/10/2026],
   ),
