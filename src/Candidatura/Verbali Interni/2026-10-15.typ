@@ -105,7 +105,7 @@ Il gruppo alla fine dell'incontro ha deciso come suddividersi i compiti con rela
     [Redazione del verbale], [Roberto Piovesan], [18/10/2026],
     [Creazione sito _GitHub Pages_ e Glossario#super[G]], [Chen Daxin, Marco Giacon], [21/10/2026],
     [Creazione template _Typst_], [Mattia Cadamuro], [21/10/2026],
-    [Contatto aziende], [Pietro Giulio Bassi], [20/10/2026],
+    [Contatto aziende], [Pietro Giulio Bassi, Davide Loparco], [20/10/2026],
   ),
   caption: [Decisioni intraprese e attività conseguenti],
 ) <tab-decisioni>
