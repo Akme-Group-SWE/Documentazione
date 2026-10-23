@@ -25,7 +25,7 @@
     "Prof. Vardanega Tullio",
   ),
   verificatore-interno: "Roberto Piovesan",
-  left-signature: firma-Piovesan.jpeg,
+  left-signature: "firma-Piovesan.jpeg",
   tipo-verbale: "Interno",
 )
 
