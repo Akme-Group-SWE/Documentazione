@@ -2,8 +2,12 @@
 
 #show: report.with(
   titolo: "Verbale interno 21/10/2026",
-  stato: "Da approvare", // MODIFICA LO STATO 
-  versione: "1.0",
+  stato: "Approvato",
+  versione: "1.0.0",
+  registro-modifiche: (
+    ("1.0.0", "23/10/2026", "Roberto Piovesan", "Roberto Piovesan", "Revisione del documento e approvazione finale"),
+    ("0.1.0", "22/10/2026", "Davide Loparco", "Roberto Piovesan", "Integrazione discussione capitolati e attività"),
+  ),
   odg: (
     "Review template documenti", "Raccolta domande per i capitolati", "Discussione disponibilità orarie",
   ),
@@ -20,10 +24,8 @@
     "Prof. Cardin Riccardo",
     "Prof. Vardanega Tullio",
   ),
-  
-  // AGGIUNGI NOME, COGNOME E FIRMA
-  /*verificatore-interno: ,
-  left-signature: , */
+  verificatore-interno: "Roberto Piovesan",
+  left-signature: firma-Piovesan.jpeg,
   tipo-verbale: "Interno",
 )
 
