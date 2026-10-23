@@ -5,8 +5,9 @@
   stato: "Approvato",
   versione: "1.0.0",
   registro-modifiche: (
-    ("1.0.0", "22/10/2026", "Chen Daxin", "Roberto Piovesan", "Versione approvata"),
-    ("0.1.0", "22/10/2026", "Davide Loparco", "Chen Daxin", "Prima stesura verbale"),
+    ("1.0.0", "22/10/2026", "Davide Loparco", "Davide Loparco", "Revisione del documento e approvazione"),
+    ("0.2.0", "22/10/2026", "Roberto Piovesan", "Davide Loparco", "Integrazione risultati test e pianificazione"),
+    ("0.1.0", "22/10/2026", "Roberto Piovesan", "Davide Loparco", "Prima stesura verbale"),
   ),
   partecipanti: (
     "Pietro Giulio Bassi",
