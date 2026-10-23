@@ -1,0 +1,13 @@
+{
+  "Way of working": "Insieme di convenzioni, pratiche, regole e strumenti adottati dai membri del gruppo per coordinarsi ed eseguire le attività di progetto.",
+  "Typst": "Linguaggio di markup e sistema di impaginazione moderno utilizzato per la redazione della documentazione ufficiale del gruppo.",
+  "GitHub Actions": "Piattaforma di integrazione e distribuzione continua (CI/CD) fornita da GitHub per automatizzare compilazione, test e deploy dei documenti.",
+  "GitHub Pages": "Servizio di hosting statico offerto da GitHub utilizzato per pubblicare il sito web del gruppo e rendere accessibile la documentazione.",
+  "GitHub": "Piattaforma web di hosting per progetti software basata sul sistema di controllo di versione Git.",
+  "Git": "Sistema software di controllo versione distribuito utilizzato per tracciare la cronologia e le modifiche ai file del repository.",
+  "Discord": "Piattaforma di comunicazione vocale, video e testuale impiegata per i meeting di gruppo telematici e le sessioni di allineamento.",
+  "WhatsApp": "Applicazione di messaggistica istantanea utilizzata dal gruppo per comunicazioni brevi, urgenti e coordinamento rapido quotidiano.",
+  "Glossario": "Documento e sezione informativa del sito web contenente le definizioni formali dei termini tecnici o ambigui utilizzati nella documentazione di progetto.",
+  "CI": "Continuous Integration: pratica di sviluppo software che prevede l'integrazione frequente del codice e l'esecuzione automatizzata di verifiche e build."
+}
+

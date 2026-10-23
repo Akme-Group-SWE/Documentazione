@@ -24,13 +24,13 @@
     "Prof. Cardin Riccardo",
     "Prof. Vardanega Tullio",
   ),
-  verificatore-interno: "Chen Daxin",
-  left-signature: "firma-Chen.png",
+  verificatore-interno: "Davide Loparco",
+  left-signature: "firma-Loparco.jpeg",
   tipo-verbale: "Interno",
 )
 
 = Informazioni generali
-Si certifica che il giorno *15 ottobre 2026*, dalle 17:40 alle 19:00, si è tenuto un incontro virtuale del gruppo Akme Group. La sessione è stata organizzata con l'obiettivo di stabilire un *way of working* e definire l'identità del gruppo, compresi il nome e la scelta del logo.
+Si certifica che il giorno *15 ottobre 2026*, dalle 17:40 alle 19:00, si è tenuto un incontro virtuale del gruppo Akme Group. La sessione è stata organizzata con l'obiettivo di stabilire un *way of working*#super[G] e definire l'identità del gruppo, compresi il nome e la scelta del logo.
 
 = Resoconto
 == Denominazione e Canali di Contatto
@@ -56,8 +56,8 @@ Il gruppo ha valutato e approvato all'unanimità due versioni del logo, progetta
 
 == Scelta dei canali di comunicazione
 Per la gestione delle attività e del coordinamento interno, sono stati adottati i seguenti canali:
-- *WhatsApp:* utilizzato per le comunicazioni brevi e quotidiane;
-- *Discord:* utilizzato come piattaforma principale per le riunioni da remoto.
+- *WhatsApp#super[G]:* utilizzato per le comunicazioni brevi e quotidiane;
+- *Discord#super[G]:* utilizzato come piattaforma principale per le riunioni da remoto.
 
 == Discussione dei capitolati
 #align(center)[
@@ -81,9 +81,9 @@ Per la gestione delle attività e del coordinamento interno, sono stati adottati
 ]
 
 == Strumenti e Gestione Documentale
-- *Redazione:* Come linguaggio per la redazione della documentazione è stato adottato *Typst*, scelto per la sintassi semplice e la ricchezza di funzionalità.
+- *Redazione:* Come linguaggio per la redazione della documentazione è stato adottato *Typst*#super[G], scelto per la sintassi semplice e la ricchezza di funzionalità.
 - *Template Standard:* Verranno sviluppati modelli (template) standard per uniformare la stesura dei futuri documenti.
-- *Versionamento e Automazione:* La documentazione sarà gestita tramite *GitHub*. La pubblicazione su *GitHub Pages* avverrà in modo automatico mediante l'integrazione con le *GitHub Actions*.
+- *Versionamento e Automazione:* La documentazione sarà gestita tramite *GitHub*#super[G]. La pubblicazione su *GitHub Pages*#super[G] avverrà in modo automatico mediante l'integrazione con le *GitHub Actions*#super[G].
 
 = Decisioni e attività
 Il gruppo alla fine dell'incontro ha deciso come suddividersi i compiti con relative scadenze.
@@ -97,10 +97,10 @@ Il gruppo alla fine dell'incontro ha deciso come suddividersi i compiti con rela
     inset: (y: 7pt, x: 5pt),
 
     [*Descrizione*], [*Responsabile*], [*Scadenza*],
-    [Redazione del verbale], [Davide Loparco], [18/10/2026],
-    [Creazione sito _GitHub Pages_ e Glossario], [Chen Daxin, Marco Giacon], [21/10/2026],
+    [Redazione del verbale], [Roberto Piovesan], [18/10/2026],
+    [Creazione sito _GitHub Pages_ e Glossario#super[G]], [Chen Daxin, Marco Giacon], [21/10/2026],
     [Creazione template _Typst_], [Mattia Cadamuro], [21/10/2026],
-    [Contatto aziende], [Pietro Giulio Bassi, Roberto Piovesan], [20/10/2026],
+    [Contatto aziende], [Pietro Giulio Bassi], [20/10/2026],
   ),
   caption: [Decisioni intraprese e attività conseguenti],
 ) <tab-decisioni>
